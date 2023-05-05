@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Runner/Assets/Assets/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png.meta
 guid: fbacd829ce7fbb14ea63d4c6afcc5f06
 timeCreated: 1512125812
+=======
+guid: 6e2129ef774bff646bdff51fb4c2d9e2
+timeCreated: 1485107928
+>>>>>>> Stashed changes:Runner/Assets/Assets/Sun_Temple/PostProcessing/Resources/Bluenoise64/LDR_LLL1_0.png.meta
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName: {}

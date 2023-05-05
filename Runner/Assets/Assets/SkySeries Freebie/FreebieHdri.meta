@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Runner/Assets/Assets/SkySeries Freebie/FreebieHdri.meta
 guid: d78fe5a22bec38d43bbe7e846ac3925a
+=======
+guid: 49e7c6400f314564f8cf63ff72323414
+>>>>>>> Stashed changes:Runner/Assets/Assets/Sun_Temple/PostProcessing/Textures/Spectral LUTs.meta
 folderAsset: yes
 timeCreated: 1509071237
 licenseType: Store

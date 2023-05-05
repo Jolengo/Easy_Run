@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Runner/Assets/Assets/TrueClouds/ExampleScenes/CloudRampNight.png.meta
 guid: 941fdfa96ecdbe345bfce4ba845ee432
 timeCreated: 1512862795
+=======
+guid: 5cf1bbfac8829584fa4264dae442df67
+timeCreated: 1485107928
+>>>>>>> Stashed changes:Runner/Assets/Assets/Sun_Temple/PostProcessing/Resources/Bluenoise64/LDR_LLL1_1.png.meta
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName: {}

@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Runner/Assets/Assets/TrueClouds/ExampleScenes/Scenes/Sky/CloudsNoize.png.meta
 guid: 36e41fe4b015e2c4dab0247de590b0ed
 timeCreated: 1431593288
+=======
+guid: e46873d6302f0c742ac08e2ee91bda03
+timeCreated: 1463066534
+>>>>>>> Stashed changes:Runner/Assets/Assets/Sun_Temple/PostProcessing/Textures/LUTs/NeutralLUT_32.png.meta
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName: {}

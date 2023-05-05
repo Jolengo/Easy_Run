@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Runner/Assets/Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr.meta
 guid: 94b877781ad034640abce933599b6f2e
 timeCreated: 1533682612
+=======
+guid: 0479d49c24088504ca14c14090b2e08f
+timeCreated: 1472551546
+>>>>>>> Stashed changes:Runner/Assets/Assets/Sun_Temple/PostProcessing/Textures/Lens Dirt/LensDirt01.png.meta
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName: {}
