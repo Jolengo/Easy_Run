@@ -10,10 +10,8 @@ public class PlatformSpawner : MonoBehaviour
     public Chunk[] ChunkPrefabs;
     public Chunk FirstChunk;
 
-    public float DrowingDistance = 15f;
-
-    public float MinZ = 0f;
-    public float MaxZ = 0f;
+    public float DrowingDistance = 30f;
+    public int SpawnedChunkCount = 8;
 
     private List<Chunk> spawnedChunks = new List<Chunk>();
 
@@ -32,20 +30,20 @@ public class PlatformSpawner : MonoBehaviour
 
     private void SpawnChunk()
     {
-        float nextChunkRange = Random.Range(MinZ, MaxZ);
-        Chunk newChunk = Instantiate(GetRandomChunk());
-        newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].End.position - newChunk.Begin.localPosition + Vector3.forward * nextChunkRange;
+        Chunk newChunk = Instantiate(ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)]);
+        newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].End.position - newChunk.Begin.localPosition;
         spawnedChunks.Add(newChunk);
 
-        if (spawnedChunks.Count >= 3)
+        if (spawnedChunks.Count >= SpawnedChunkCount)
         {
             Destroy(spawnedChunks[0].gameObject);
             spawnedChunks.RemoveAt(0);
         }
     }
-
+    /*
     private Chunk GetRandomChunk()
     {
+
         List<float> chances = new List<float>();
         for (int i = 0; i < ChunkPrefabs.Length; i++)
         {
@@ -66,4 +64,5 @@ public class PlatformSpawner : MonoBehaviour
 
         return ChunkPrefabs[ChunkPrefabs.Length - 1];
     }
+    */
 }
