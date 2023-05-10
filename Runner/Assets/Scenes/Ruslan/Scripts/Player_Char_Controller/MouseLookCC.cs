@@ -19,6 +19,7 @@ public class MouseLookCC : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
+        /*
     void Update()
     {
         if (PlayerBody.GetComponent<PlayerMove>().IsGrounded)
@@ -37,4 +38,5 @@ public class MouseLookCC : MonoBehaviour
         transform.localRotation = Quaternion.Euler(_xRotation, 0f, _zRotation);
         PlayerBody.Rotate(Vector3.up * mouseX);
     }
+        */
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.57770085, g: 0.6152049, b: 0.60846514, a: 1}
+  m_IndirectSpecularColor: {r: 0.5784543, g: 0.6157293, b: 0.6087265, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -799,8 +799,7 @@ MonoBehaviour:
   - {fileID: 2883228436535878646, guid: b3e2ec4acd7f8614ab3612ca5b2db38b, type: 3}
   FirstChunk: {fileID: 778207962}
   DrowingDistance: 60
-  MinZ: 0
-  MaxZ: 0
+  SpawnedChunkCount: 8
 --- !u!1001 &1031318657
 PrefabInstance:
   m_ObjectHideFlags: 0
