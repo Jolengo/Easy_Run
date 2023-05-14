@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 4155260200931380222}
   - component: {fileID: 2883228436535878646}
   m_Layer: 0
-  m_Name: Three_PLatform 1
+  m_Name: Three_PLatform_trap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,7 +385,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Begin: {fileID: 833282123330597912}
   End: {fileID: 7846274020841224026}
-  BlockMeshes: []
   ChanceFromDistance:
     serializedVersion: 2
     m_Curve:

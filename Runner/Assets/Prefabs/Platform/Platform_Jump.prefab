@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 7087473587647279583}
   - component: {fileID: 8640717085257777396}
   m_Layer: 0
-  m_Name: Platform_Jump_1
+  m_Name: Platform_Jump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,7 +546,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Begin: {fileID: 691457769110010899}
   End: {fileID: 3923107198193886988}
-  BlockMeshes: []
   ChanceFromDistance:
     serializedVersion: 2
     m_Curve:
