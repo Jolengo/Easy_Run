@@ -13,6 +13,7 @@ public class PlayerMoveCC : MonoBehaviour
     public float JumpHeight = 3f;
     public float MaxBoost = -2f;
     public float GroundDistance = 0.4f;
+    public float WallrunDistance = 0.4f;
 
     public float ShakeDelay = 0.1f;
     public float ShakeDuration = 0.025f;
@@ -22,8 +23,14 @@ public class PlayerMoveCC : MonoBehaviour
     public Transform GroundCheck;
     public LayerMask GroundMask;
 
+    public Transform WallCheckRight;
+    public Transform WallCheckLeft;
+    public LayerMask WallMask;
+
     private Vector3 _velocity;
     public bool IsGrounded;
+    public bool IsOnWallRight;
+    public bool IsOnWallLeft;
     private float _height;
 
     private void Start()
@@ -33,11 +40,13 @@ public class PlayerMoveCC : MonoBehaviour
 
     void Update()
     {
-        IsGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask);   
+        IsGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask);
+        IsOnWallRight = Physics.CheckSphere(WallCheckRight.position, WallrunDistance, WallMask);
+        IsOnWallLeft = Physics.CheckSphere(WallCheckLeft.position, WallrunDistance, WallMask);
 
         if (IsGrounded && _velocity.y < 0f)
         {
-            _velocity.y = MaxBoost;  
+            _velocity.y = MaxBoost;
         }
 
         float x = Input.GetAxis("Horizontal");
@@ -45,7 +54,7 @@ public class PlayerMoveCC : MonoBehaviour
         //Debug.Log("x = " + x.ToString());
         //Debug.Log("z = " + z.ToString());
 
-        Vector3 move = transform.right * x + transform.forward * z;        
+        Vector3 move = transform.right * x + transform.forward * z;
         if (Input.GetKey(KeyCode.LeftShift))
         {
             Controller.Move(move * RunSpeed * Time.deltaTime);
@@ -58,7 +67,7 @@ public class PlayerMoveCC : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded)
         {
             _velocity.y = Mathf.Sqrt(JumpHeight * MaxBoost * Gravity);
-            Invoke("CameraShakeOnJump", ShakeDelay);
+            //Invoke("CameraShakeOnJump", ShakeDelay);
         }
 
         _velocity.y += Gravity * Time.deltaTime;
