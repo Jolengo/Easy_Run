@@ -449,7 +449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4974139224465649153, guid: 4222ecaece029fa4f94e183e75a02484, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.771915
+      value: 91.909
       objectReference: {fileID: 0}
     - target: {fileID: 4974139224465649153, guid: 4222ecaece029fa4f94e183e75a02484, type: 3}
       propertyPath: m_LocalRotation.w
@@ -481,6 +481,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4974139224465649154, guid: 4222ecaece029fa4f94e183e75a02484, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4974139224465649154, guid: 4222ecaece029fa4f94e183e75a02484, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1968,6 +1972,10 @@ PrefabInstance:
     - target: {fileID: 4155260200931380223, guid: b3e2ec4acd7f8614ab3612ca5b2db38b, type: 3}
       propertyPath: m_Name
       value: Three_PLatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209786266935144208, guid: b3e2ec4acd7f8614ab3612ca5b2db38b, type: 3}
+      propertyPath: maxFallDistance
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e2ec4acd7f8614ab3612ca5b2db38b, type: 3}
