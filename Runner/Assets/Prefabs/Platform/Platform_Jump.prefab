@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1455347153344180239}
   - component: {fileID: 9177200684886160101}
   - component: {fileID: 6943819307214165522}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,6 @@ GameObject:
   - component: {fileID: 3858407287862728223}
   - component: {fileID: 3050147664590840670}
   - component: {fileID: 1696590559160961567}
-  - component: {fileID: 6928646651314194018}
   m_Layer: 0
   m_Name: Rock2
   m_TagString: Untagged
@@ -378,20 +377,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6928646651314194018
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2308286069461976482}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: d11d8096e6b14aa43aa74d862d2d01f7, type: 3}
 --- !u!1 &5024884037765160736
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,8 +566,8 @@ GameObject:
   - component: {fileID: 6642206653841734612}
   - component: {fileID: 3632022636056393235}
   - component: {fileID: 3211222461308728781}
-  - component: {fileID: 1958084511033876261}
-  m_Layer: 0
+  - component: {fileID: 7343354191576713987}
+  m_Layer: 3
   m_Name: Platform_circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -654,7 +639,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1958084511033876261
+--- !u!64 &7343354191576713987
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

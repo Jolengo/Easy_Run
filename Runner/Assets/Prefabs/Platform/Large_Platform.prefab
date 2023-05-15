@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4687544733719024180}
   - component: {fileID: 4976555786498546946}
   - component: {fileID: 6773782415515788337}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,8 +115,7 @@ GameObject:
   - component: {fileID: 8847699620900702311}
   - component: {fileID: 445372359594184352}
   - component: {fileID: 1631925661498902333}
-  - component: {fileID: 6744349284364467821}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,19 +187,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6744349284364467821
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99658677082510492}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &104888236975746922
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +199,7 @@ GameObject:
   - component: {fileID: 6182728920558807006}
   - component: {fileID: 7283892985710314728}
   - component: {fileID: 1581768809384581357}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8549351082306412795}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ====Trash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5258767767005355236}
   - component: {fileID: 4434002413128028878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Large_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +384,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Begin: {fileID: 7037574595232304530}
   End: {fileID: 7567272402135864546}
-  BlockMeshes: []
   ChanceFromDistance:
     serializedVersion: 2
     m_Curve:
@@ -433,7 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841713360886057391}
   - component: {fileID: 9175245217398045813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,8 +486,7 @@ GameObject:
   - component: {fileID: 7446219850630927544}
   - component: {fileID: 364556638791420855}
   - component: {fileID: 1072704484675138107}
-  - component: {fileID: 7108498966826612789}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,19 +558,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7108498966826612789
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365788330813291726}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &494495005494597194
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,8 +569,7 @@ GameObject:
   - component: {fileID: 7363686559706135792}
   - component: {fileID: 4378329559557367261}
   - component: {fileID: 1536445510274146027}
-  - component: {fileID: 3699628813191417847}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,19 +641,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3699628813191417847
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494495005494597194}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &500004045707275301
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,7 +653,7 @@ GameObject:
   - component: {fileID: 4318437840288034249}
   - component: {fileID: 9204355993223673392}
   - component: {fileID: 1770957726078420245}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -799,8 +756,7 @@ GameObject:
   - component: {fileID: 8282121608105989717}
   - component: {fileID: 5168302226181234771}
   - component: {fileID: 1867728611222921232}
-  - component: {fileID: 3749355416792873480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,19 +828,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3749355416792873480
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568208890668408447}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &603826805558683217
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +840,7 @@ GameObject:
   - component: {fileID: 2262906533308843411}
   - component: {fileID: 2295055616605201964}
   - component: {fileID: 5434460643881428362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,7 +944,7 @@ GameObject:
   - component: {fileID: 5300829871068151462}
   - component: {fileID: 2092783155445452953}
   - component: {fileID: 6287379761696585748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1105,7 +1048,7 @@ GameObject:
   - component: {fileID: 1960385753261959327}
   - component: {fileID: 2324940420207462623}
   - component: {fileID: 4674842476062725733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1209,7 +1152,7 @@ GameObject:
   - component: {fileID: 2589691893602398788}
   - component: {fileID: 749979507391218658}
   - component: {fileID: 5640997330044957104}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1312,8 +1255,7 @@ GameObject:
   - component: {fileID: 6814162655199594204}
   - component: {fileID: 17792932435869869}
   - component: {fileID: 3581645067730890426}
-  - component: {fileID: 924088068224803628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1385,19 +1327,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &924088068224803628
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819215173961835203}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &973101903899928741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,7 +1338,7 @@ GameObject:
   - component: {fileID: 5533625789184618020}
   - component: {fileID: 4068870032712917783}
   - component: {fileID: 4527231090737665600}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,7 +1422,7 @@ GameObject:
   - component: {fileID: 593361420823994663}
   - component: {fileID: 5396315468179015145}
   - component: {fileID: 4057031208787529172}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1597,7 +1526,7 @@ GameObject:
   - component: {fileID: 7873713609264778928}
   - component: {fileID: 8711177897475077483}
   - component: {fileID: 2295210283457340306}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1630,7 @@ GameObject:
   - component: {fileID: 719505522549760874}
   - component: {fileID: 1716886955993800671}
   - component: {fileID: 7171115169406619049}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1804,8 +1733,7 @@ GameObject:
   - component: {fileID: 2333599431855898000}
   - component: {fileID: 165962863446669881}
   - component: {fileID: 7318811502046608151}
-  - component: {fileID: 2582255427909222672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1877,19 +1805,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2582255427909222672
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303219130174191527}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &1317927502341818109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,8 +1816,7 @@ GameObject:
   - component: {fileID: 674605504023080616}
   - component: {fileID: 8473710709876781086}
   - component: {fileID: 6620693245896571991}
-  - component: {fileID: 5765089095714971618}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1974,19 +1888,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5765089095714971618
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317927502341818109}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &1344166516374609152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,7 +1900,7 @@ GameObject:
   - component: {fileID: 734754610858840247}
   - component: {fileID: 3267257818982070688}
   - component: {fileID: 7087206426709779366}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2103,7 +2004,7 @@ GameObject:
   - component: {fileID: 1674933413243840205}
   - component: {fileID: 6843697011141681927}
   - component: {fileID: 8081120643951532591}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,8 +2107,7 @@ GameObject:
   - component: {fileID: 4803250003616821605}
   - component: {fileID: 6456518515521200}
   - component: {fileID: 6496368472701177036}
-  - component: {fileID: 6829337626544598269}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2279,19 +2179,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6829337626544598269
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647694421931736671}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &1661627091739010257
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,8 +2190,7 @@ GameObject:
   - component: {fileID: 6677251043845052081}
   - component: {fileID: 961479721359168417}
   - component: {fileID: 7826511045888414056}
-  - component: {fileID: 6041653294985332136}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2376,19 +2262,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6041653294985332136
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661627091739010257}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &1726613666180488969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,7 +2271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7567272402135864546}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -2432,7 +2305,7 @@ GameObject:
   - component: {fileID: 5403757063466330034}
   - component: {fileID: 2501996167805832552}
   - component: {fileID: 1239384032207232534}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2536,7 +2409,7 @@ GameObject:
   - component: {fileID: 4969865270528173975}
   - component: {fileID: 849147144035675010}
   - component: {fileID: 1883009733917203180}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2632,7 +2505,7 @@ GameObject:
   - component: {fileID: 9025182273730954911}
   - component: {fileID: 7528737985989663416}
   - component: {fileID: 3441084619643149667}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2716,7 +2589,7 @@ GameObject:
   - component: {fileID: 4927137290015637349}
   - component: {fileID: 4236405547053678499}
   - component: {fileID: 949021265728881223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2819,7 +2692,7 @@ GameObject:
   - component: {fileID: 8599702536675630160}
   - component: {fileID: 465939984057782238}
   - component: {fileID: 5852502276753401019}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2902,7 +2775,7 @@ GameObject:
   - component: {fileID: 4967605652288388914}
   - component: {fileID: 849618798504817250}
   - component: {fileID: 8084207482041223236}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2986,7 +2859,7 @@ GameObject:
   - component: {fileID: 8212253739632069596}
   - component: {fileID: 6143807095674155552}
   - component: {fileID: 6763549884354068164}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3082,7 +2955,7 @@ GameObject:
   - component: {fileID: 1166608071890626342}
   - component: {fileID: 5579188123503312023}
   - component: {fileID: 5234474399680906590}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3166,7 +3039,7 @@ GameObject:
   - component: {fileID: 2900753938838453562}
   - component: {fileID: 8548461468659641019}
   - component: {fileID: 6599297528840974918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3269,7 +3142,7 @@ GameObject:
   - component: {fileID: 2102537807895662710}
   - component: {fileID: 2782174189952117987}
   - component: {fileID: 1671386012427204233}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3352,8 +3225,7 @@ GameObject:
   - component: {fileID: 5344019778707878342}
   - component: {fileID: 1730551982595130472}
   - component: {fileID: 9182551692228866422}
-  - component: {fileID: 6626316828881828382}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3425,19 +3297,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6626316828881828382
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2481351263749913050}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &2497245145815304764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3450,7 +3309,7 @@ GameObject:
   - component: {fileID: 1139344924950056387}
   - component: {fileID: 3782206121767161453}
   - component: {fileID: 3612481197326265296}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3554,7 +3413,7 @@ GameObject:
   - component: {fileID: 7717066989179501691}
   - component: {fileID: 9110704933569706383}
   - component: {fileID: 9032479811127211900}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3658,7 +3517,7 @@ GameObject:
   - component: {fileID: 558818507828278428}
   - component: {fileID: 2082648250037727585}
   - component: {fileID: 200868102002525416}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3762,7 +3621,7 @@ GameObject:
   - component: {fileID: 682891782913099085}
   - component: {fileID: 6097728295964207069}
   - component: {fileID: 2313521068300567940}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rock4A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3857,7 +3716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3886395155749513888}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform_Large (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3900,7 +3759,7 @@ GameObject:
   - component: {fileID: 1213992168192982399}
   - component: {fileID: 4422556137270152664}
   - component: {fileID: 6773995413751106058}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3996,7 +3855,7 @@ GameObject:
   - component: {fileID: 909198910068279875}
   - component: {fileID: 1412207393172469975}
   - component: {fileID: 3433844634832939237}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4080,7 +3939,7 @@ GameObject:
   - component: {fileID: 6918016884983426060}
   - component: {fileID: 3860962869082190545}
   - component: {fileID: 228602405040931784}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4182,7 +4041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5259110802874815035}
   - component: {fileID: 5876568294482444154}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4256,7 +4115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3919935903566662705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Undo_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4295,8 +4154,7 @@ GameObject:
   - component: {fileID: 8986350122262004520}
   - component: {fileID: 8678544691122486196}
   - component: {fileID: 4232706505498649112}
-  - component: {fileID: 7575952973718347548}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4368,19 +4226,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7575952973718347548
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3515917781625606738}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &3654842172479421187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4393,7 +4238,7 @@ GameObject:
   - component: {fileID: 6672447815513074652}
   - component: {fileID: 2238301068312286167}
   - component: {fileID: 8931037936440691974}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4496,8 +4341,7 @@ GameObject:
   - component: {fileID: 5977437157863310883}
   - component: {fileID: 6952387619066939159}
   - component: {fileID: 3869295686398324646}
-  - component: {fileID: 1747848220346241298}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4569,19 +4413,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1747848220346241298
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3675462620928591859}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &3701251567384774965
 GameObject:
   m_ObjectHideFlags: 0
@@ -4591,7 +4422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8325907662363766660}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform_Large (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4633,7 +4464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8964972848409928119}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Vegetabls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4676,7 +4507,7 @@ GameObject:
   - component: {fileID: 5803905454373121297}
   - component: {fileID: 1241728436150661900}
   - component: {fileID: 337522357597609834}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4779,8 +4610,7 @@ GameObject:
   - component: {fileID: 54126998437747030}
   - component: {fileID: 5298543286462151777}
   - component: {fileID: 5960570945049278937}
-  - component: {fileID: 2739703127848941999}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4852,19 +4682,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2739703127848941999
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3910171733123809937}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &4143614322970008039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4877,7 +4694,7 @@ GameObject:
   - component: {fileID: 6289657840022415188}
   - component: {fileID: 7753044551000964725}
   - component: {fileID: 844324092920074671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4973,8 +4790,7 @@ GameObject:
   - component: {fileID: 568803854002192807}
   - component: {fileID: 8394246935808050622}
   - component: {fileID: 3199231825898695159}
-  - component: {fileID: 4499372293789639878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5046,19 +4862,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4499372293789639878
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4253625852266176299}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &4301702162554908253
 GameObject:
   m_ObjectHideFlags: 0
@@ -5070,8 +4873,7 @@ GameObject:
   - component: {fileID: 4678317258979208699}
   - component: {fileID: 1058027632638736008}
   - component: {fileID: 1185891863869354653}
-  - component: {fileID: 1141618576344052111}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5143,19 +4945,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1141618576344052111
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301702162554908253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &4416127330036248357
 GameObject:
   m_ObjectHideFlags: 0
@@ -5167,8 +4956,7 @@ GameObject:
   - component: {fileID: 5507620296693503773}
   - component: {fileID: 6555856556693423600}
   - component: {fileID: 8578836267508402914}
-  - component: {fileID: 8452330373513978349}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5240,19 +5028,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8452330373513978349
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4416127330036248357}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &4421011112373167644
 GameObject:
   m_ObjectHideFlags: 0
@@ -5263,7 +5038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3870407643557145557}
   - component: {fileID: 3723418440682328951}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5330,8 +5105,7 @@ GameObject:
   - component: {fileID: 8387750949657178926}
   - component: {fileID: 6028917850007071334}
   - component: {fileID: 4881765625465750306}
-  - component: {fileID: 3827889921714574469}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5403,19 +5177,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3827889921714574469
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4521880159131068411}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &4576912501615072363
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,8 +5188,8 @@ GameObject:
   - component: {fileID: 5019243789834583396}
   - component: {fileID: 2457274519136197315}
   - component: {fileID: 1629003482344553059}
-  - component: {fileID: 2450060875266746019}
-  m_Layer: 0
+  - component: {fileID: 480329326822987015}
+  m_Layer: 3
   m_Name: Stone_slab_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5500,7 +5261,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2450060875266746019
+--- !u!65 &480329326822987015
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5511,8 +5272,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
+  m_Size: {x: 2.461738, y: 0.31342795, z: 9.603491}
+  m_Center: {x: 0.0000019868216, y: 0.15498106, z: 4.4510093}
 --- !u!1 &4735092858377761745
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,7 +5285,9 @@ GameObject:
   - component: {fileID: 6561470733992763380}
   - component: {fileID: 4461038994768503235}
   - component: {fileID: 2868087494873413715}
-  m_Layer: 0
+  - component: {fileID: 4199181446756553246}
+  - component: {fileID: 9028316419867615286}
+  m_Layer: 3
   m_Name: Wall_broken_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5596,6 +5359,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4199181446756553246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735092858377761745}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 1.4182633, z: 1.4270003}
+  m_Center: {x: -0.00000047683716, y: 0.7531603, z: -1.1342794}
+--- !u!65 &9028316419867615286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735092858377761745}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 0.7775065, z: 2.2699783}
+  m_Center: {x: -0.00000047683716, y: 0.43278188, z: 0.7127899}
 --- !u!1 &4744326877976666101
 GameObject:
   m_ObjectHideFlags: 0
@@ -5608,7 +5397,7 @@ GameObject:
   - component: {fileID: 9037914087653992981}
   - component: {fileID: 7437267418045145143}
   - component: {fileID: 7864880370151467381}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5711,8 +5500,7 @@ GameObject:
   - component: {fileID: 190972369990758531}
   - component: {fileID: 2736549521459186811}
   - component: {fileID: 5260986781911139473}
-  - component: {fileID: 6571381172579223445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5784,19 +5572,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6571381172579223445
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4888285288286821707}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &4927913319249860039
 GameObject:
   m_ObjectHideFlags: 0
@@ -5807,7 +5582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3680950975171459179}
   - component: {fileID: 1277937825706977715}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5873,7 +5648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1717802272362421136}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform_Large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5916,7 +5691,7 @@ GameObject:
   - component: {fileID: 6800270861689887071}
   - component: {fileID: 859489353126239113}
   - component: {fileID: 7528115942686157857}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6019,8 +5794,7 @@ GameObject:
   - component: {fileID: 6479417789875655308}
   - component: {fileID: 8502668237068095324}
   - component: {fileID: 7836189551140353289}
-  - component: {fileID: 8463023529382090962}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6092,19 +5866,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8463023529382090962
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5045998900501002636}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &5279779838578182222
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,7 +5878,7 @@ GameObject:
   - component: {fileID: 1047290981799357118}
   - component: {fileID: 5087554694391475579}
   - component: {fileID: 6132806759636717638}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6218,7 +5979,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7037574595232304530}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Begin
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -6250,7 +6011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5259110802874815037}
   - component: {fileID: 4037975543821367475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6322,7 +6083,7 @@ GameObject:
   - component: {fileID: 827557431601890607}
   - component: {fileID: 9032165191232733906}
   - component: {fileID: 8871105082950773155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6425,8 +6186,7 @@ GameObject:
   - component: {fileID: 4607290532110502479}
   - component: {fileID: 4953696506648586026}
   - component: {fileID: 2828195422285141914}
-  - component: {fileID: 3474523221896435181}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6498,19 +6258,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3474523221896435181
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5585522474721097465}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &5751186086072129099
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,7 +6269,9 @@ GameObject:
   - component: {fileID: 39940349861849917}
   - component: {fileID: 1166251628663097901}
   - component: {fileID: 3630268176507222366}
-  m_Layer: 0
+  - component: {fileID: 8351556631849169180}
+  - component: {fileID: 4151913288730670461}
+  m_Layer: 3
   m_Name: Wall_broken_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6594,6 +6343,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8351556631849169180
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5751186086072129099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 0.90100443, z: 2.237446}
+  m_Center: {x: -0.00000023841864, y: 0.49453086, z: 0.72905505}
+--- !u!65 &4151913288730670461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5751186086072129099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 1.4182633, z: 1.4505994}
+  m_Center: {x: -0.00000023841875, y: 0.7531603, z: -1.1224808}
 --- !u!1 &5827597595418473382
 GameObject:
   m_ObjectHideFlags: 0
@@ -6606,7 +6381,7 @@ GameObject:
   - component: {fileID: 2483500985894434454}
   - component: {fileID: 6683678553858203257}
   - component: {fileID: 3505675405858430193}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6709,8 +6484,7 @@ GameObject:
   - component: {fileID: 6815833608791526378}
   - component: {fileID: 2997050423933961122}
   - component: {fileID: 3449050846185016370}
-  - component: {fileID: 1681796886021798272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6782,19 +6556,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1681796886021798272
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5839643775432098234}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &6017920610945079118
 GameObject:
   m_ObjectHideFlags: 0
@@ -6806,7 +6567,7 @@ GameObject:
   - component: {fileID: 6443932010211915725}
   - component: {fileID: 6173180202905943852}
   - component: {fileID: 4242700252960562344}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6888,7 +6649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7009706068348585481}
   - component: {fileID: 4143624286926452875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6956,7 +6717,7 @@ GameObject:
   - component: {fileID: 8301408105232303521}
   - component: {fileID: 6583309172229801685}
   - component: {fileID: 2774814719432151221}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7039,8 +6800,7 @@ GameObject:
   - component: {fileID: 4268470079910173965}
   - component: {fileID: 8587537650954373679}
   - component: {fileID: 8266447860162915431}
-  - component: {fileID: 2018106381914934354}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7112,19 +6872,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2018106381914934354
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6208143809404612644}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &6326398504524623198
 GameObject:
   m_ObjectHideFlags: 0
@@ -7135,7 +6882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8113152961344784934}
   - component: {fileID: 365133377565610366}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Point light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7230,8 +6977,7 @@ GameObject:
   - component: {fileID: 2154070494985701586}
   - component: {fileID: 7334087856052189887}
   - component: {fileID: 1764799933300481205}
-  - component: {fileID: 4525851216818692631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7303,19 +7049,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4525851216818692631
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6421522887956458025}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &6487176113711571833
 GameObject:
   m_ObjectHideFlags: 0
@@ -7327,8 +7060,7 @@ GameObject:
   - component: {fileID: 9072747570867403569}
   - component: {fileID: 4652550818275371921}
   - component: {fileID: 2156299044894693745}
-  - component: {fileID: 4745682986902137601}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7400,19 +7132,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4745682986902137601
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6487176113711571833}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &6496666203710784469
 GameObject:
   m_ObjectHideFlags: 0
@@ -7424,8 +7143,7 @@ GameObject:
   - component: {fileID: 6838954381724293211}
   - component: {fileID: 83417462244972902}
   - component: {fileID: 8474599040522848709}
-  - component: {fileID: 1408859001288820978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7497,19 +7215,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1408859001288820978
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6496666203710784469}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &6521779766541801588
 GameObject:
   m_ObjectHideFlags: 0
@@ -7522,7 +7227,7 @@ GameObject:
   - component: {fileID: 7767898333535642901}
   - component: {fileID: 1388951069812189746}
   - component: {fileID: 1562987242423407155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7626,7 +7331,7 @@ GameObject:
   - component: {fileID: 6826475583796423101}
   - component: {fileID: 6663662047592299584}
   - component: {fileID: 1972731238610109324}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7730,7 +7435,7 @@ GameObject:
   - component: {fileID: 5330071743451969730}
   - component: {fileID: 893778656320666546}
   - component: {fileID: 6764882875062716788}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7834,7 +7539,7 @@ GameObject:
   - component: {fileID: 8548924029836465838}
   - component: {fileID: 1456558111783238398}
   - component: {fileID: 5102302480059132419}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7938,7 +7643,7 @@ GameObject:
   - component: {fileID: 5604245469816214910}
   - component: {fileID: 8480795158672654773}
   - component: {fileID: 183675292346444222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rock1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8035,8 +7740,7 @@ GameObject:
   - component: {fileID: 744167305810989129}
   - component: {fileID: 3914803231856479148}
   - component: {fileID: 6097171921946264525}
-  - component: {fileID: 1851749719222420030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8108,19 +7812,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1851749719222420030
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6896322843818887346}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &6931117140668487502
 GameObject:
   m_ObjectHideFlags: 0
@@ -8132,8 +7823,7 @@ GameObject:
   - component: {fileID: 932729517712638948}
   - component: {fileID: 1452500637579617422}
   - component: {fileID: 6612069913792591282}
-  - component: {fileID: 4563356320525049173}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8205,19 +7895,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4563356320525049173
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6931117140668487502}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &7053478090464064374
 GameObject:
   m_ObjectHideFlags: 0
@@ -8229,8 +7906,7 @@ GameObject:
   - component: {fileID: 6685774481621990467}
   - component: {fileID: 1657397207984838575}
   - component: {fileID: 2367758645052196493}
-  - component: {fileID: 5595955497045701013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8302,19 +7978,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5595955497045701013
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7053478090464064374}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &7074913179658400305
 GameObject:
   m_ObjectHideFlags: 0
@@ -8326,7 +7989,9 @@ GameObject:
   - component: {fileID: 3649317804989122101}
   - component: {fileID: 8500201971568617757}
   - component: {fileID: 3387833053055154381}
-  m_Layer: 0
+  - component: {fileID: 6733088361601533588}
+  - component: {fileID: 3264696547919366307}
+  m_Layer: 3
   m_Name: Wall_broken_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8398,6 +8063,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6733088361601533588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074913179658400305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 1.4182633, z: 1.4541047}
+  m_Center: {x: -0.00000047683716, y: 0.7531603, z: -1.1207272}
+--- !u!65 &3264696547919366307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074913179658400305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 0.9810368, z: 2.2399528}
+  m_Center: {x: -0.00000047683716, y: 0.53454703, z: 0.72780263}
 --- !u!1 &7315640338027742335
 GameObject:
   m_ObjectHideFlags: 0
@@ -8410,7 +8101,7 @@ GameObject:
   - component: {fileID: 6437945017326289354}
   - component: {fileID: 807688860618191946}
   - component: {fileID: 5911254687576445387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8514,7 +8205,7 @@ GameObject:
   - component: {fileID: 1700942259883683658}
   - component: {fileID: 274533471527435048}
   - component: {fileID: 2390830615300681687}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8618,7 +8309,7 @@ GameObject:
   - component: {fileID: 98551706272218436}
   - component: {fileID: 7836142977030669720}
   - component: {fileID: 7726402983219631533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Gate_broken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8715,7 +8406,7 @@ GameObject:
   - component: {fileID: 6481284902745530591}
   - component: {fileID: 9011092589545911752}
   - component: {fileID: 7926686432202789719}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: BetterCrystal01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8799,7 +8490,7 @@ GameObject:
   - component: {fileID: 7897529845835245485}
   - component: {fileID: 8951879600616206087}
   - component: {fileID: 8232141492264895415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8900,7 +8591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2176908619983810259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform_Large (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8941,7 +8632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7214138417102146084}
   - component: {fileID: 6922565266865216230}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9009,8 +8700,7 @@ GameObject:
   - component: {fileID: 5336454524540234917}
   - component: {fileID: 721442119687008182}
   - component: {fileID: 2948105237850594724}
-  - component: {fileID: 324920971906488734}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9082,19 +8772,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &324920971906488734
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8108659510575588284}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &8190839879775082000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9104,7 +8781,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2319112244926920558}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Crystalsv07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9149,7 +8826,7 @@ GameObject:
   - component: {fileID: 1930476285545983862}
   - component: {fileID: 380457303975772492}
   - component: {fileID: 4522097262929157169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9253,7 +8930,7 @@ GameObject:
   - component: {fileID: 8325907662233676292}
   - component: {fileID: 8325907662233676293}
   - component: {fileID: 8325907662233676290}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9357,7 +9034,7 @@ GameObject:
   - component: {fileID: 8325907662500591236}
   - component: {fileID: 8325907662500591237}
   - component: {fileID: 8325907662500591234}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9461,7 +9138,7 @@ GameObject:
   - component: {fileID: 8325907662655721500}
   - component: {fileID: 8325907662655721501}
   - component: {fileID: 8325907662655721498}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9565,7 +9242,7 @@ GameObject:
   - component: {fileID: 8325907662815787808}
   - component: {fileID: 8325907662815787809}
   - component: {fileID: 8325907662815787822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9669,7 +9346,7 @@ GameObject:
   - component: {fileID: 8325907662953856020}
   - component: {fileID: 8325907662953856021}
   - component: {fileID: 8325907662953856018}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9773,7 +9450,7 @@ GameObject:
   - component: {fileID: 8325907662999349303}
   - component: {fileID: 8325907662999349300}
   - component: {fileID: 8325907662999349301}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9877,7 +9554,7 @@ GameObject:
   - component: {fileID: 8325907663100819754}
   - component: {fileID: 8325907663100819755}
   - component: {fileID: 8325907663100819752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9980,8 +9657,7 @@ GameObject:
   - component: {fileID: 8325907663254494186}
   - component: {fileID: 8325907663254494191}
   - component: {fileID: 8325907663254494188}
-  - component: {fileID: 8325907663254494189}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_slab_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10053,19 +9729,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8325907663254494189
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8325907663254494187}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.461738, y: 0.31342795, z: 0.7014692}
-  m_Center: {x: 0.000001847744, y: 0.15498106, z: 0.000000029802322}
 --- !u!1 &8325907663364382098
 GameObject:
   m_ObjectHideFlags: 0
@@ -10078,7 +9741,7 @@ GameObject:
   - component: {fileID: 8325907663364382102}
   - component: {fileID: 8325907663364382103}
   - component: {fileID: 8325907663364382100}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10182,7 +9845,7 @@ GameObject:
   - component: {fileID: 8325907663608070243}
   - component: {fileID: 8325907663608070240}
   - component: {fileID: 8325907663608070241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10286,7 +9949,7 @@ GameObject:
   - component: {fileID: 8325907663782592881}
   - component: {fileID: 8325907663782592894}
   - component: {fileID: 8325907663782592895}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10390,7 +10053,7 @@ GameObject:
   - component: {fileID: 8325907664070951207}
   - component: {fileID: 8325907664070951204}
   - component: {fileID: 8325907664070951205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10494,7 +10157,7 @@ GameObject:
   - component: {fileID: 8325907664297883830}
   - component: {fileID: 8325907664297883831}
   - component: {fileID: 8325907664297883828}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10598,7 +10261,7 @@ GameObject:
   - component: {fileID: 786864549032207354}
   - component: {fileID: 2041220536450631480}
   - component: {fileID: 102235243951104973}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10694,7 +10357,9 @@ GameObject:
   - component: {fileID: 286153836336533264}
   - component: {fileID: 2602098835724974730}
   - component: {fileID: 188191189455324527}
-  m_Layer: 0
+  - component: {fileID: 5128459667199445229}
+  - component: {fileID: 289289630164332792}
+  m_Layer: 3
   m_Name: Wall_broken_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10766,6 +10431,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5128459667199445229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729965976174841883}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 1.4182633, z: 1.4968579}
+  m_Center: {x: -0.00000047683716, y: 0.7531603, z: -1.0993506}
+--- !u!65 &289289630164332792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729965976174841883}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6189413, y: 0.9395977, z: 2.2007482}
+  m_Center: {x: -0.00000047683716, y: 0.5138275, z: 0.74740493}
 --- !u!1 &8954055189685407085
 GameObject:
   m_ObjectHideFlags: 0
@@ -10776,7 +10467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8335291411934879276}
   - component: {fileID: 2204201556795230585}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10844,8 +10535,7 @@ GameObject:
   - component: {fileID: 8532384575249561933}
   - component: {fileID: 3006729031797775965}
   - component: {fileID: 8829876437590131739}
-  - component: {fileID: 2343527484665022575}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10917,19 +10607,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2343527484665022575
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9023890352237615500}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1 &9030564106909823278
 GameObject:
   m_ObjectHideFlags: 0
@@ -10940,7 +10617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5259110802874815034}
   - component: {fileID: 1822132215803047216}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: P_Bush02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11010,7 +10687,7 @@ GameObject:
   - component: {fileID: 8149969375941824028}
   - component: {fileID: 6043237725188342477}
   - component: {fileID: 7649196710275819351}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bush02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11113,8 +10790,7 @@ GameObject:
   - component: {fileID: 5086864953027881033}
   - component: {fileID: 5097982822532333717}
   - component: {fileID: 8029712298176395086}
-  - component: {fileID: 433816690457231430}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brick (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11186,19 +10862,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &433816690457231430
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9196665662691547391}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.66224486, y: 0.46484196, z: 0.42156494}
-  m_Center: {x: 0.00000014901161, y: 0.0000016093254, z: 0}
 --- !u!1001 &223976284693003613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11265,6 +10928,10 @@ PrefabInstance:
     - target: {fileID: 2304452450515885960, guid: a66b058d8b62035419a2eba5a09a04fa, type: 3}
       propertyPath: m_Name
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304452450515885960, guid: a66b058d8b62035419a2eba5a09a04fa, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a66b058d8b62035419a2eba5a09a04fa, type: 3}
@@ -11340,6 +11007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rubble_3
       objectReference: {fileID: 0}
+    - target: {fileID: 4093863278952658390, guid: 3a1befa230470354d8fb26ebd5984160, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a1befa230470354d8fb26ebd5984160, type: 3}
 --- !u!4 &2008007811142136497 stripped
@@ -11357,6 +11028,10 @@ PrefabInstance:
     - target: {fileID: 2843232821370760004, guid: 0fffa020152f4b6488a9c7d5352cbbfb, type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843232821370760004, guid: 0fffa020152f4b6488a9c7d5352cbbfb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3188233540076139006, guid: 0fffa020152f4b6488a9c7d5352cbbfb, type: 3}
       propertyPath: m_RootOrder
@@ -11488,6 +11163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rubble_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4093863278952658390, guid: 3a1befa230470354d8fb26ebd5984160, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a1befa230470354d8fb26ebd5984160, type: 3}
 --- !u!4 &7903551809547723780 stripped
@@ -11561,6 +11240,10 @@ PrefabInstance:
     - target: {fileID: 5655841508595575895, guid: d4a304978777aa042a03163a08bfb756, type: 3}
       propertyPath: m_Name
       value: Rubble_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655841508595575895, guid: d4a304978777aa042a03163a08bfb756, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4a304978777aa042a03163a08bfb756, type: 3}
