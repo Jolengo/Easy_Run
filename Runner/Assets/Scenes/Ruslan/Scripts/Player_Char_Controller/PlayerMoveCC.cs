@@ -54,14 +54,25 @@ public class PlayerMoveCC : MonoBehaviour
         //Debug.Log("x = " + x.ToString());
         //Debug.Log("z = " + z.ToString());
 
-        Vector3 move = transform.right * x + transform.forward * z;
-        if (Input.GetKey(KeyCode.LeftShift))
+        Vector3 move;
+        if (IsOnWallRight || IsOnWallLeft)
         {
+            move = transform.forward;
             Controller.Move(move * RunSpeed * Time.deltaTime);
         }
         else
         {
-            Controller.Move(move * WalkSpeed * Time.deltaTime);
+            move = transform.right * x + transform.forward * z;
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                Controller.Move(move * RunSpeed * Time.deltaTime);
+            }
+            else
+            {
+                Controller.Move(move * WalkSpeed * Time.deltaTime);
+            }
+
+            _velocity.y += Gravity * Time.deltaTime;
         }
 
         if (Input.GetButtonDown("Jump") && IsGrounded)
@@ -70,7 +81,6 @@ public class PlayerMoveCC : MonoBehaviour
             //Invoke("CameraShakeOnJump", ShakeDelay);
         }
 
-        _velocity.y += Gravity * Time.deltaTime;
         Controller.Move(_velocity * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.LeftControl))
