@@ -10,14 +10,6 @@ public class RollinStuff : MonoBehaviour
 
     private float _angle = 0f;
 
-    private void Start()
-    {
-        for (int i = 0; i < RollinObjects.Count; i++)
-        {
-            RollinObjects[i].transform.parent = null;
-        }
-    }
-
     void Update()
     {
         for(int i = 0; i < RollinObjects.Count; i++)
