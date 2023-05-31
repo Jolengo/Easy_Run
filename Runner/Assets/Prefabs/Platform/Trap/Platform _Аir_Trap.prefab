@@ -13926,7 +13926,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5886650384982342875}
   - {fileID: 5886650385377036631}
   - {fileID: 5886650385894542343}
   m_Father: {fileID: 5886650384792567555}
@@ -15717,7 +15716,7 @@ GameObject:
   - component: {fileID: 5886650384982342873}
   - component: {fileID: 5886650384982342874}
   - component: {fileID: 5886650384982342872}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Stone_slab_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15732,12 +15731,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5886650384982342876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.94400024, z: -4.305969}
+  m_LocalPosition: {x: -4.606, y: -5.361, z: -4.263672}
   m_LocalScale: {x: 4, y: 4.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5886650384816536591}
-  m_RootOrder: 0
+  m_Father: {fileID: 5886650385136691627}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5886650384982342873
 MeshFilter:
@@ -17041,6 +17040,7 @@ Transform:
   - {fileID: 3486418257749510104}
   - {fileID: 3486418256311675654}
   - {fileID: 3486418257179202779}
+  - {fileID: 5886650384982342875}
   m_Father: {fileID: 5886650384792567555}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18123,7 +18123,7 @@ GameObject:
   - component: {fileID: 5886650385244598401}
   - component: {fileID: 5886650385244598402}
   - component: {fileID: 5886650385244598400}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Stone_slab_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19850,7 +19850,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5886650384816536591}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5886650385377036629
 MeshFilter:
@@ -35723,7 +35723,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5886650384816536591}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &5886650385894542341
 MeshFilter:

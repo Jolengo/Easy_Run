@@ -7,7 +7,7 @@ public class ShatterEffect : MonoBehaviour
     public GameObject shatterPrefab;
     public int shatterCount = 10;
     public float rotationSpeed = 100f;
-    public float shakeIntensity = 0.1f;
+    public float shakeIntensity = 0.01f;
 
     private List<GameObject> shatters = new List<GameObject>();
     private Quaternion initialRotation;
