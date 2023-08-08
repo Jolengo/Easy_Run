@@ -8,6 +8,6 @@ public class RotateEarth : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(0, 0, speed * Time.deltaTime); // вращение планеты
+        transform.Rotate(0, 0, -speed * Time.deltaTime); // вращение планеты
     }
 }
