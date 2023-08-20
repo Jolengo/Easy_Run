@@ -8,6 +8,7 @@ public class PointCounter : MonoBehaviour
 
     public Transform PlayerPosition;
     public Text Counter;
+    public int CountMinimizer = 100;
 
     private float _playerPosZ;
     private int _count = 0;
@@ -26,6 +27,6 @@ public class PointCounter : MonoBehaviour
             _playerPosZ = PlayerPosition.position.z;
         }
 
-        Counter.text = _count.ToString();
+        Counter.text = (_count / CountMinimizer).ToString();
     }
 }
